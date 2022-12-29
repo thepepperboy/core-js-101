@@ -19,7 +19,7 @@
  *   '',  'bb'  => 'bb'
  */
 function concatenateStrings(value1, value2 ) {
-  "".concat(value1, value2);
+  value1.concat(value2);
 }
 
 
